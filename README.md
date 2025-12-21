@@ -233,3 +233,71 @@ Bash
 
 # Solo ejecutar si se necesita soporte inmediato (Experimental)
 pip install --pre --upgrade torch torchvision --index-url [https://download.pytorch.org/whl/nightly/cu124](https://download.pytorch.org/whl/nightly/cu124)
+```
+---
+
+## 📚 Roadmap de Especialización en IA
+
+Este plan de estudios consta de **36 temas** diseñados para avanzar desde los fundamentos matemáticos hasta la IA Generativa moderna, aprovechando la aceleración por GPU.
+
+### 🐍 MÓDULO 1: Fundamentos de Python Científico
+*La base del manejo de datos antes de entrar en redes neuronales.*
+
+- [ ] **01. NumPy I:** Arrays, dimensiones (shapes) y tipos de datos.
+- [ ] **02. NumPy II:** Operaciones matemáticas vectorizadas y Broadcasting.
+- [ ] **03. Pandas I:** DataFrames, lectura de archivos (CSV/Excel) y exploración.
+- [ ] **04. Pandas II:** Limpieza de datos, manejo de nulos y filtrado avanzado.
+- [ ] **05. Visualización I:** Gráficos estáticos con Matplotlib (líneas, dispersión).
+- [ ] **06. Preprocesamiento:** Normalización, estandarización y One-Hot Encoding.
+
+### 📐 MÓDULO 2: Machine Learning Clásico
+*Entendiendo cómo aprenden las máquinas (algoritmos tradicionales).*
+
+- [ ] **07. Conceptos Clave:** Supervisado vs No Supervisado, Overfitting.
+- [ ] **08. Regresión Lineal:** Predicción numérica y concepto de "Error".
+- [ ] **09. Regresión Logística:** Clasificación binaria y probabilidad.
+- [ ] **10. Árboles de Decisión:** Reglas de decisión interpretables.
+- [ ] **11. Métricas de Evaluación:** Accuracy, Precision, Recall, Matriz de Confusión.
+- [ ] **12. División de Datos:** Train, Validation y Test sets.
+
+### 🔥 MÓDULO 3: Deep Learning & PyTorch
+*El núcleo del aprendizaje profundo y uso de GPU.*
+
+- [ ] **13. Tensores en PyTorch:** Diferencias con NumPy y uso de CUDA.
+- [ ] **14. El Perceptrón:** La neurona artificial y operaciones matriciales.
+- [ ] **15. Redes Densas (MLP):** Capas ocultas y funciones de activación (ReLU).
+- [ ] **16. Funciones de Pérdida:** MSE y CrossEntropy.
+- [ ] **17. Optimizadores:** Descenso del gradiente, SGD y Adam.
+- [ ] **18. El Training Loop:** Epochs, Batches y monitoreo de pérdida.
+
+### 👁️ MÓDULO 4: Visión Artificial (Computer Vision)
+*Enseñando a la máquina a "ver" e interpretar imágenes.*
+
+- [ ] **19. Convoluciones:** Filtros, Kernels y Mapas de características.
+- [ ] **20. Pooling y Flattening:** Reducción de dimensionalidad.
+- [ ] **21. Arquitectura CNN:** Construcción de redes convolucionales completas.
+- [ ] **22. Data Augmentation:** Rotaciones y transformaciones para mejorar el dataset.
+- [ ] **23. Transfer Learning:** Uso de modelos pre-entrenados (ResNet, VGG).
+- [ ] **24. Persistencia:** Guardado (`.pth`) y carga de modelos (Checkpoints).
+
+### 💬 MÓDULO 5: Procesamiento de Lenguaje Natural (NLP)
+*Enseñando a la máquina a "leer" y entender texto.*
+
+- [ ] **25. Preprocesamiento NLP:** Tokenización, limpieza y vocabulario.
+- [ ] **26. Embeddings:** Representación vectorial de palabras (Word2Vec).
+- [ ] **27. Redes Recurrentes (RNNs):** Secuencias y memoria temporal.
+- [ ] **28. LSTMs y GRUs:** Memoria a largo plazo y puertas lógicas.
+- [ ] **29. Mecanismo de Atención:** La base de los modelos modernos.
+- [ ] **30. Transformers:** Arquitectura Encoder-Decoder.
+
+### ✨ MÓDULO 6: IA Generativa y Avanzada
+*Estado del arte: LLMs, Difusión y aplicaciones reales.*
+
+- [ ] **31. Modelos BERT:** Entendimiento bidireccional del lenguaje.
+- [ ] **32. Modelos GPT:** Generación de texto autorregresiva.
+- [ ] **33. Fine-Tuning:** Ajuste de LLMs (LoRA/PEFT) a datos propios.
+- [ ] **34. Stable Diffusion:** Generación de imágenes a partir de texto.
+- [ ] **35. RAG (Retrieval Augmented Generation):** Chat con documentos privados.
+- [ ] **36. Despliegue (Deploy):** Creación de demos web con Gradio/Streamlit.
+
+---
