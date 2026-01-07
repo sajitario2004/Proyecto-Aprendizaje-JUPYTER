@@ -155,7 +155,7 @@ Nota: Este comando instala la versión actual. Si tu GPU es muy nueva (ej. RTX 5
 
 Bash
 
-pip install torch torchvision torchaudio numpy pandas matplotlib jupyterlab notebook
+python3 -m pip install torch torchvision torchaudio numpy pandas matplotlib jupyterlab notebook
 3. Configuración en Visual Studio Code
 Abrir VS Code y abrir la carpeta ~/NvidiaIA (o donde tengas tu código).
 
